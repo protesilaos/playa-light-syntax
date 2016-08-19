@@ -1,6 +1,6 @@
 # Playa syntax theme (light variant)
 
-A low-contrast theme that conveys a feeling of summer and seaside. The most prevalent colours are blue, green, cyan, orange, and yellow.
+A low contrast theme that conveys a feeling of summer and seaside. The most prevalent colours are blue, green, cyan, orange, and yellow.
 
 *Playa* comes in standalone light and dark variants (see further info below).
 
