@@ -1,5 +1,3 @@
-// Playa Syntax Theme
-
 // Color scheme -----------------------------------
 
 @dbg: #234154; // Dark background
@@ -22,28 +20,30 @@
 @vio: #AA85CB; // Violet
 @mag: #CB7E9A; // Magenta
 
-// Variables -----------------------------------
+// Visual order -----------------------------------
 
-@text-1: @lt1; // text primary
-@text-2: @lt2; // text secondary
+@primary1: @blu;
+@primary2: @gre;
+@primary3: @cya;
 
-@color-1: @blu; // color primary
-@color-2: @gre; // color secondary
-@color-3: @cya; // color tertiary
+@secondary1: @ora;
+@secondary2: @yel;
 
-@support-1: @ora; // support primary
-@support-2: @yel; // support secondary
+@tertiary1: @red;
+@tertiary2: @vio;
+@tertiary3: @mag;
 
-@accent-1: @red; // accent primary
-@accent-2: @vio; // accent secondary
-@accent-3: @mag; // accent tertiary
+// Theme variant ----------------------------------
 
-// Base vars -----------------------------------
-
-@syntax-fg: @text-1; // text primary
-@syntax-accent: @accent-1; // accent primary
+@text1: @lt1; // text primary
+@text2: @lt2; // text secondary
 @syntax-bg: @lbg; // background
 @syntax-guide: @lhl; // background highlight
+
+// Atom Base vars ---------------------------------
+
+@syntax-fg: @text1; // text primary
+@syntax-accent: @tertiary1; // cursor, markdown preview links, etc.
 @syntax-selection: @syntax-guide;
 @syntax-selection-gutter: @syntax-guide;
 @syntax-cursor-line: fade(@syntax-selection, 26%); // needs to be semi-transparent to show serach results
