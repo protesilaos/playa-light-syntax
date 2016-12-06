@@ -22,6 +22,6 @@ apm install playa-syntax
 
 ## Further information
 
-Project page: [http://www.protesilaos.com/playa](http://www.protesilaos.com/playa)
+Project page: [https://protesilaos.com/playa](https://protesilaos.com/playa)
 
 Playa dark version: [https://atom.io/themes/playa-dark-syntax](https://atom.io/themes/playa-dark-syntax)
